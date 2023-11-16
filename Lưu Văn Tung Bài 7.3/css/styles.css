@@ -1,0 +1,87 @@
+.main-header {
+  height: 60px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  background: url(../img/kma_logo.png) center no-repeat;
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+}
+.content {
+  text-align: center;
+}
+.first-line,
+.first-child {
+  text-transform: uppercase;
+}
+.first-child {
+  text-decoration: underline;
+}
+/* main */
+.main {
+  margin-top: 20px;
+}
+.title {
+  text-align: center;
+}
+.main-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+.main-description {
+  font-size: 12px;
+}
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+.infor-left {
+}
+.infor-right {
+}
+.data-row {
+  display: flex;
+}
+.label {
+  margin-right: 8px;
+}
+.label-content {
+  font-weight: bold;
+}
+/* table */
+.table {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+thead tr,
+.second-row,
+tbody tr td,
+tfoot td:first-child {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.heading-row {
+  width: 100%;
+  text-align: center;
+}
+.stt {
+  width: 20px;
+}
+.small {
+    width: 60px;
+}
