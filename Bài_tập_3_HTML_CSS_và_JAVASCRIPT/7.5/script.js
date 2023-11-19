@@ -19,7 +19,7 @@ function convertName() {
 }
 
 function checkEmail() {
-    re = /\@ngductung\./
+    re = /\@tunglv\./
     email = document.getElementById("email").value
     if (!re.test(email)) {
         document.getElementById("error").innerText = "Vui lòng nhập email đúng yêu cầu!!!"
